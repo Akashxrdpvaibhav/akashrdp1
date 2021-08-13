@@ -18,8 +18,8 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/sherofficil/akashrdp1/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
-        Invoke-WebRequest https://download1511.mediafire.com/6fqg9tq4fd2g/v05106ujul8nhgh/Node.js.lnk
-        Invoke-WebRequest https://download1514.mediafire.com/lzibjlykseug/lbf5ap1gav3s2cw/Visual+Studio+2019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://github.com/sherofficil/akashrdp1/raw/main/Launcher/Node.is.lnk
+        Invoke-WebRequest https://github.com/sherofficil/akashrdp1/raw/main/Launcher/Virtual%20Studio%202019.ink -OutFile "Visual Studio 2019.lnk"
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
