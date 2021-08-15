@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Mendownload Ngrok.
       run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://central.github.com/deployments/desktop/desktop/latest/win32 -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/sherofficil/akashrdp1/main/Start.bat -OutFile start.bat
         Invoke-WebRequest https://github.com/sherofficil/akashrdp1/blob/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/sherofficil/akashrdp1/main/Wallpaper.bat -OutFile wallpaper.bat
